@@ -1,0 +1,232 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+	font-family: Petrona, sans-serif;
+	background-image:url(imagenes/fondo-index2.svg);
+	background-size: cover;
+	border-style:outset;
+}
+
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+
+header{
+	background-color: rgba(255,255,255,.5);
+	text-align: center;
+	text-shadow: 2px -2px rgba(180, 136, 66,.7);
+	min-height: 60px;
+	border-style:outset;
+	padding: 5px;
+	width: 100%;
+}
+
+#escudo{
+	width: 30%;
+	display: inline-block;
+}
+
+#hgroup{
+	width: 69%;
+	display: inline-block;
+	
+}
+
+nav#principal{
+        background-color:rgba(70, 9, 9, 0.76);
+        text-align: center;
+        border-style:ridge;
+		border-color: wheat; 
+		width: 100%;
+      }
+      
+      nav#principal li{
+        display:inline-block;
+		font-variant: small-caps;
+		font-size:12px;
+		color:wheat;
+		padding: 10px;
+		width: 30%;
+		}
+      
+      
+	  nav#principal li img{
+			border-style:ridge;	
+			padding: 6px;
+			border-color: wheat;
+		}
+      
+      nav#principal li img:hover{
+        background-color:rgb(177, 110, 5);
+      }
+
+
+main{
+        background-color:rgba(245, 222, 179, 0.7);
+        min-height:880px;
+        width:60%;
+	 	display: inline-block;
+        padding: 16px;
+        border-style:outset;
+	 	padding-left: 25px;
+      }
+
+	main h1{
+		text-align: left;
+		text-shadow: 2px -2px rgba(180, 136, 66,.7);
+		margin-bottom: 25px;
+	}
+
+	main ul{
+		list-style-type:circle;
+		list-style-position: inside
+	}
+
+	main p img{
+			width: 50%;
+			float: right;
+			padding: 1em;
+		  }
+	
+	p{
+		margin-bottom: 30px;
+}
+
+article{
+	text-align:justify;
+
+}
+
+article figure{
+	margin:0 auto;
+	text-align: center;
+}
+
+.multimedia Videos{
+		
+	margin-top: 50px;
+}
+	
+	.multimedia1, .multimedia2{
+		width: 49%;
+		display: inline-block;
+		text-align: center;
+		
+	}
+
+	video{
+		border: solid 6px rgb(70, 9, 9);
+		width: 100%;
+		
+						
+	}
+
+	main h2{
+		margin-top: 6px;
+		text-align: center;
+		text-shadow: 2px -2px rgba(180, 136, 66,.7);
+		margin-top: 12px;
+}
+
+aside{
+        background-color:rgba(245, 222, 179, 0.7);
+        width:40%;
+	 	min-height:880px;
+	 	padding: 16px;
+ 		display: inline-block;
+        border-style:outset;
+	 	float: right;
+				
+      }
+	aside h2{
+		text-align: center;
+		text-shadow: 2px -2px rgba(180, 136, 66,.7);
+		margin-top: 12px;
+
+	}
+
+	#casaconsistorial{
+		background-image: url(imagenes/fondo-escudo.svg);
+		background-size: auto;
+	}
+
+	#centroconfianza{
+		background-image: url(imagenes/fondo-vino.jpg);
+		background-size: contain;
+	}
+
+	#desarrolloempresarial{
+		background-image: url(imagenes/fondo-vina.jpg);
+		background-size: auto;
+	}
+
+
+	.presentacion img{
+		margin: 25px;
+		width: 80%;
+	}
+
+
+nav#secundaria{
+        background-color:transparent;
+        text-align: center;
+        border-style:none;
+		border-color: wheat; 
+		width: 80%;
+		margin: 0 auto;
+				
+		}
+      
+      nav#secundaria li{
+        
+		font-variant: small-caps;
+		font-size:20px;
+		color:wheat;
+		width: 100%;
+		min-height: 120px;
+		margin-top:40px;
+		list-style: none;
+			
+		}
+          
+    	nav#secundaria li:hover{
+        background-color:rgba(70, 9, 9, 0.76);
+      }
+	
+		nav#secundaria li figcaption{
+			background-color: rgba(70, 9, 9, 0.76);
+			
+		}
+		
+
+
+
+footer{
+	background-color:rgba(245, 222, 179, 0.5);
+	min-height:50px;
+	text-align: center;
+	border-style:outset;
+}
+
+
+#galeria1, #galeria2{
+		text-align: center;
+		text-shadow: 2px -2px rgba(180, 136, 66,.7);
+		margin-top: 12px;
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+		color: rgb(70, 9, 9);
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+			
+}
+#galeria1 img, #galeria2 img, #galeria3 img, #galeria4 img{
+	border-style:outset;
+}
